@@ -5,7 +5,14 @@
 }
 
 body {
+  font-family: "Roboto", sans-serif;
   background-color: #FFEDD5;
+}
+
+h1, h2, h3, strong {
+  font-family: "Roboto Serif", serif;
+  text-transform: uppercase;
+  color: #2D2C2A;
 }
 
 ul {
@@ -24,6 +31,8 @@ header {
 }
 
 header h1 {
+  font-size: 28px;
+  line-height: 33px;
   margin-bottom: 4px;
 }
 
@@ -31,11 +40,18 @@ header span {
   color: #995000;
 }
 
+header p {
+  font-size: 14px;
+  line-height: 16px;
+  color: rgba(0, 0, 0, .7);
+}
+
 section {
   margin-bottom: 24px;
 }
 
 section h2 {
+  font-size: 18px;
   text-align: center;
   padding: 8px 16px;
   background-color: #FED7AA;
@@ -48,5 +64,13 @@ ul li {
 }
 
 .details h3 {
+  font-size: 16px;
+  line-height: 19px;
   margin-bottom: 8px;
+}
+
+.details p {
+  color: rgba(0, 0, 0, .6);
+  font-size: 14px;
+  line-height: 21px;
 }
